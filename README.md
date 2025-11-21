@@ -3,15 +3,15 @@
 ## This project divede into two parts:
 
 ## Face Detection and Face Recognition:
-**The first part of this project can detect human face in an image, crop and saves the detected face, and then compares it with the face found in the new image. This allows the system to decide whether the two image contain the same person. It provides fast, accurate identification based on deep-learning–powered face embeddings and similarity scoring.**
+- **The first part of this project can detect human face in an image, crop and saves the detected face, and then compares it with the face found in the new image. This allows the system to decide whether the two image contain the same person. It provides fast, accurate identification based on deep-learning–powered face embeddings and similarity scoring.**
 
 ## Celebrity Classification:
-**The second part of this project can detect faces in an image and predicts which celebrity the detected faces most closely resembles. **
+- **The second part of this project can detect faces in an image and predicts which celebrity the detected faces most closely resembles.**
 
 ## Features
-**Detect human faces in an image: detect multiple face in an image, drawing bounding box around the face and save the coordinate using RetenaFace**
-**Recognize face in an image: detect multiple face and matches it with the face that saves in the database using Vision Transformer or MTCNN**
-**Predict celebrity in an image: detect multiple faces in the image and predict which clebrity is resembles mostly using Vision Transformer.**
+- **Detect human faces in an image: detect multiple face in an image, drawing bounding box around the face and save the coordinate using RetenaFace**
+- **Recognize face in an image: detect multiple face and matches it with the face that saves in the database using Vision Transformer or MTCNN**
+- **Predict celebrity in an image: detect multiple faces in the image and predict which clebrity is resembles mostly using Vision Transformer.**
 
 ## Samples
 ### Face detection
@@ -44,8 +44,8 @@ data/
 **wider_val.txt only includes val file names but not label information.**
 
 ### Celebrity Classification
-Vision Transformer model for Celebrity Classification use Celebrity Face Image Dataset.
-Dataset: https://www.kaggle.com/datasets/vishesh1412/celebrity-face-image-dataset
+- **Vision Transformer model for Celebrity Classification use Celebrity Face Image Dataset.**
+- **Dataset: https://www.kaggle.com/datasets/vishesh1412/celebrity-face-image-dataset**
 ```
 data/
 │
