@@ -18,11 +18,11 @@
 ![alt text](test/6843fefdcadf4f6fade55b9e7561b970ce1ac7d8a6eab48433a5075d.jpg)
 
 ### Face recognition
-![alt text](./test/face_database.PNG)
-![alt text](./test/d6b71408e03a2eb00778e65fc15ef7cc4542e1b11c1d90b470d90b04.jpg)
+![alt text](test/face_database.PNG)
+![alt text](test/d6b71408e03a2eb00778e65fc15ef7cc4542e1b11c1d90b470d90b04.jpg)
 
 ### Celebrity Classification
-![alt text](./test/celebrity%20classification.jpg)
+![alt text](test/celebrity%20classification.jpg)
 
 
 ## Dataset
@@ -168,7 +168,7 @@ Scarlett Johansson     0.9130    0.9545    0.9333        22
 ```
 
 Confusion Matrix:
-![alt text](./test/confusion_matrix.png)
+![alt text](test/confusion_matrix.png)
 
 ## Instruction 
 - **After cloning the repo.**
@@ -186,16 +186,18 @@ streamlit run app.py
 
 ## Front-end
 **Choose the image that you want to detect face and save the face embedding with his/her name**
-![alt text](./test/demo1.PNG)
+![alt text](test/demo1.PNG)
 
 **Choose the image that you want to detect face and matches it with the face that saves in the database**
-![alt text](./test/demo2.PNG)
+![alt text](test/demo2.PNG)
 
 **Choose the image that you want to detect face and predict celebrities**
-![alt text](./test/demo3.PNG)
+![alt text](test/demo3.PNG)
 
 ## References
 
-**https://github.com/yakhyo/retinaface-pytorch**
-**https://arxiv.org/pdf/2010.11929**
-**https://github.com/ipazc/mtcnn**
+- **https://github.com/yakhyo/retinaface-pytorch**
+- **https://arxiv.org/pdf/2010.11929**
+- **https://github.com/ipazc/mtcnn**
+
+
