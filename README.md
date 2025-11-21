@@ -29,24 +29,24 @@ Predict celebrity in an image: detect multiple faces in the image and predict wh
 ### Face detection and Face Recognition
 The RetenaFace model for face detection use the wider_face dataset to train.
 Dataset : https://drive.google.com/file/d/11UGV3nbVv1x9IC--_tK3Uxf7hA6rlbsS/view
-...
+```
 data/
 └── widerface/
-   ├── train/
-   │   ├── images/
-   │   └── label.txt
-   └── val/
-      ├── images/
-      └── wider_val.txt
-...
+    ├── train/
+    │   ├── images/
+    │   └── label.txt
+    └── val/
+        ├── images/
+        └── wider_val.txt
+```
+
 
 wider_val.txt only includes val file names but not label information.
 
 ### Celebrity Classification
 Vision Transformer model for Celebrity Classification use Celebrity Face Image Dataset.
 Dataset: https://www.kaggle.com/datasets/vishesh1412/celebrity-face-image-dataset
-...
-
+```
 data/
 │
 └── celebrity_faces/
@@ -87,8 +87,7 @@ data/
        │     └── ...
        └── Will_Smith/
              └── ...
-...
-
+```
 ## Tech Stack
 
 ### Backend / API
