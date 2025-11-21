@@ -45,6 +45,7 @@ wider_val.txt only includes val file names but not label information.
 ### Celebrity Classification
 Vision Transformer model for Celebrity Classification use Celebrity Face Image Dataset.
 Dataset: https://www.kaggle.com/datasets/vishesh1412/celebrity-face-image-dataset
+```
 data/
 │
 └── celebrity_faces/
@@ -83,7 +84,7 @@ data/
 │ └── ...
 └── Will_Smith/
 └── ...
-
+```
 ## Tech Stack
 
 ### Backend / API
@@ -172,7 +173,7 @@ streamlit run app.py
 
 ## Front-end
 Choose the image that you want to detect face and save the face embedding with his/her name
-![alt text](./test/demo1.PNG)
+![alt text](./test/demo1.PNG])
 
 Choose the image that you want to detect face and matches it with the face that saves in the database
 ![alt text](./test/demo2.PNG)
