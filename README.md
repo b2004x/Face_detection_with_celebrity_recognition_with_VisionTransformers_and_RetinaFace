@@ -15,7 +15,7 @@
 
 ## Samples
 ### Face detection
-![alt text](/test/6843fefdcadf4f6fade55b9e7561b970ce1ac7d8a6eab48433a5075d.jpg)
+![alt text](test/6843fefdcadf4f6fade55b9e7561b970ce1ac7d8a6eab48433a5075d.jpg)
 
 ### Face recognition
 ![alt text](./test/face_database.PNG)
