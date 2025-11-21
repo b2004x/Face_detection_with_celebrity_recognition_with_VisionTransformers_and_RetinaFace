@@ -124,8 +124,10 @@ data/
 - **subprocess** – optional command-line operations
 
 ## Installation
+```
 git clone 
 cd FACE_DETECTION - COPY
+```
 
 ## Model Performance 
 ### Face Detection
@@ -175,15 +177,15 @@ Confusion Matrix:
 Use Working directory with FACE DETECTION - COPY folder
 
 - **Open terminal**
-
+```
 cd demo/back-end
 uvicorn api:app --reload
-
+```
 - **Open another terminal**
-
+```
 cd demo/front-end
 streamlit run app.py
-
+```
 ## Front-end
 **Choose the image that you want to detect face and save the face embedding with his/her name**
 ![alt text](test/demo1.PNG)
