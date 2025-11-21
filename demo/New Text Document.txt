@@ -1,0 +1,4 @@
+uvicorn api:app --reload
+streamlit run app.py
+npm run dev
+python detect.py -n mobilenetv1 -w retinaface_mv1.pth
