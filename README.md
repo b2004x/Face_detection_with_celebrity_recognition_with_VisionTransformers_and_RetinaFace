@@ -9,8 +9,8 @@
 - **The second part of this project can detect faces in an image and predicts which celebrity the detected faces most closely resembles.**
 
 ## Features
-- **Detect human faces in an image: detect multiple face in an image, drawing bounding box around the face and save the coordinate using RetenaFace**
-- **Recognize face in an image: detect multiple face and matches it with the face that saves in the database using Vision Transformer or MTCNN**
+- **Detect human faces in an image: detect multiple face in an image, drawing bounding box around the face and save the coordinate using RetenaFace.**
+- **Recognize face in an image: detect multiple face and matches it with the face that saves in the database using Vision Transformer or MTCNN.**
 - **Predict celebrity in an image: detect multiple faces in the image and predict which clebrity is resembles mostly using Vision Transformer.**
 
 ## Samples
@@ -134,7 +134,7 @@ cd FACE_DETECTION - COPY
 - **Epoch: 100/100 | Batch: 400/400 | Loss Localization : 0.5011 | Classification: 0.8221 | Landmarks: 0.7289 | LR: 0.00001000 | Time: 1.5069 s
 Average batch loss: 2.5618900**
 
-- **This is the results of the final batch in the final eppoch**
+- **This is the results of the final batch in the final eppoch.**
 
 ### Celebrity Classification
 
@@ -176,24 +176,24 @@ Confusion Matrix:
 - **After cloning the repo.**
 Use Working directory with FACE DETECTION - COPY folder
 
-- **Open terminal**
+- **Open terminal.**
 ```
 cd demo/back-end
 uvicorn api:app --reload
 ```
-- **Open another terminal**
+- **Open another terminal.**
 ```
 cd demo/front-end
 streamlit run app.py
 ```
 ## Front-end
-**Choose the image that you want to detect face and save the face embedding with his/her name**
+**Choose the image that you want to detect face and save the face embedding with his/her name.**
 ![alt text](test/demo1.PNG)
 
-**Choose the image that you want to detect face and matches it with the face that saves in the database**
+**Choose the image that you want to detect face and matches it with the face that saves in the database.**
 ![alt text](test/demo2.PNG)
 
-**Choose the image that you want to detect face and predict celebrities**
+**Choose the image that you want to detect face and predict celebrities.**
 ![alt text](test/demo3.PNG)
 
 ## References
